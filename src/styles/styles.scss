@@ -1,6 +1,13 @@
+@use "color";
+
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+body {
+     color: color.$text-primary;
+    height: 100vh;
 }
 
 aside {
